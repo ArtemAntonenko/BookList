@@ -1,0 +1,195 @@
+
+body{
+	font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+#bookContainer{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#qwerty{
+	background-color: gray;
+	border: 0px;
+}
+
+button{
+	font-size: 0.9em;
+    font-weight: bold;
+	background-color: #add3d3;
+    outline: none;
+}
+
+
+button:active{
+	background-color: rgba(206, 20, 55, 0.75);
+    outline: none;
+}
+
+
+button:focus{
+    outline: none;
+}
+
+button::-moz-focus-inner{
+    border: 0;
+}
+
+
+#buttonTab{
+	height: 100px;
+	/*background-color: lightgreen;*/
+	margin:0 auto;
+	width: 700px;
+	min-width: 400px;
+}
+
+#firstButtonPanel{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+
+#secondButtonPanel{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+#firstButtonPanel button, #secondButtonPanel button{
+	width: 95%;
+	height: 2em;
+	border-radius: 5px;
+	margin: 2px auto;
+	border: 1px solid gray;
+	/*background-color: #add3d3;*/
+}
+
+#firstButtonPanel{
+	visibility: hidden;
+}
+
+
+#panelAddBook {
+	float: left;
+	height: 100%;
+	width: 60%;
+	display: block;
+}
+
+#inputTab{
+	visibility: hidden;
+}
+
+
+#panelAddBook input{
+	float: left;
+	width: 75%;
+	height: 1.8em;
+	border-radius: 5px;
+	margin: 2px auto;
+	border: 1px solid gray;
+	text-align: center;
+}
+
+#panelAddBook input:focus{
+	background-color: lightblue;
+}
+
+#panelAddBook span{
+	float: left;
+	height: 1.8em;
+	line-height: 1.8em;
+	margin-left: 5px;
+	text-align: center;
+}
+
+#panelAddBook div{
+	float: left;
+}
+
+span#messageWindow{
+	width: 75%;
+	/*border: 1px solid gray;*/
+	visibility: hidden;
+	line-height: 1em;
+	font-size: 1em;
+	margin-left: 0px;
+	margin-top: 2px;
+	color: red;
+}
+
+
+/*#buttonTab div button{
+	width: 70%;
+	height: 2em;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-right: 7px;
+	border: 1px solid gray;
+}*/
+
+#bookTable{
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 700px;
+	min-width: 400px;
+	table-layout: fixed
+}
+
+#bookContainer tr{
+	vertical-align: center;
+}
+
+#bookContainer td, th{
+	line-height: 2em;
+	margin: 0 auto;
+	height: 2em;
+	border: 2px solid black;
+	padding: 0;
+	overflow: hidden;
+}
+
+#bookContainer th{
+	font-weight: bold;
+}
+
+#bookContainer label{
+	display: block;
+}
+
+.rowChecked{
+	background-color: lightgray;
+}
+
+.columnFirst{
+	width: 10%;
+}
+.columnSecond{
+	width: 30%;
+}
+.columnThird{
+	width: 60%;
+}
+
+/*td label{
+	display: block;
+	height: 100%;
+	text-align: left;
+}
+
+.checkbox{
+	visibility: hidden;
+	margin-left: 20%;
+}
+
+.checked{
+	background-color: aqua;
+}*/
